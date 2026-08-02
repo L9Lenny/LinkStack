@@ -1019,9 +1019,16 @@ class UserController extends Controller
             // Loop through each link in $userData and create a new link for the user
             foreach ($userData['links'] as $linkData) {
 
-                $validatedData = Validator::make($linkData, [
-                    'link' => 'nullable|exturl',
-                ]);
+                // Only validate the "link" field as an external URL for link types that
+                // store a URL in it. Other link types store non-URL data in the "link"
+                // column (e.g. "vcard" links store their contact data as JSON) and would
+                // otherwise fail the "exturl" validation.
+                $urlLinkTypes = ['predefined', 'link', 'email', 'telephone'];
+                $rules = in_array($linkData['type'] ?? null, $urlLinkTypes, true)
+                    ? ['link' => 'nullable|exturl']
+                    : [];
+
+                $validatedData = Validator::make($linkData, $rules);
 
                 if ($validatedData->fails()) {
                     throw new \Exception('Invalid link');
