@@ -57,7 +57,7 @@ return [
     'Remember Me' => 'Ricordami',
     'Forgot Password?' => 'Password dimenticata?',
     'or sign in with other accounts?' => 'oppure accedi con altri account?',
-    'Don\'t have an account?' => 'Non hai un account?',
+    'Don’t have an account?' => 'Non hai un account?',
     'Click here to sign up' => 'Clicca qui per registrarti',
 
 
@@ -238,7 +238,7 @@ return [
     'Link Clicks:' => 'Click sui link:',
     'View/Edit Links' => 'Vedi/Modifica link',
     'Top Links:' => 'Link migliori:',
-    'You haven\'t added any links yet' => 'Non hai ancora aggiunto alcun link.',
+    'You haven’t added any links yet' => 'Non hai ancora aggiunto alcun link.',
     'clicks' => 'click',
     'Clicks' => 'Click',
     'Site statistics:' => 'Statistiche del sito:',
@@ -274,7 +274,7 @@ return [
     'Reset to default' => 'Ripristina predefiniti',
     'Result' => 'Risultato:',
     'Custom Icon' => 'Icona personalizzata',
-    'Custom Alert' => 'Il codice breve della tua icona personalizzata non contiene la stringa "fa-". Usa sempre icone nel formato: fa-ghost, per esempio.',
+    'Custom Alert' => 'Il codice breve della tua icona personalizzata non contiene la stringa "fa-". Usa sempre icone nel formato: fa-ghost, ad esempio.',
     'cb.description.1-4' => 'Le icone personalizzate possono essere aggiunte ai pulsanti tramite Font Awesome. Puoi usare qualsiasi icona dall\'elenco sottostante, puoi accedere a questo elenco cliccando sul pulsante "Vedi tutte le icone". Ogni icona in quell\'elenco ha un codice breve, che puoi copiare e inserire nel campo icona personalizzata.',
     'cb.description.2-4' => 'Ogni codice breve dell\'icona consiste in un prefisso e una parte principale. Se il codice breve non è un\'icona di marca, puoi semplicemente inserire il codice nel formato: fa-nome-icona. La formattazione "fa-..." è importante qui. Per esempio "fa-code".',
     'cb.description.3-4' => 'Se il codice breve è un\'icona di marca, è importante includere un "fab" prima della parte del codice breve. Ancora, la formattazione "fa-..." si applica comunque qui. Per esempio, "fab fa-github"',
@@ -326,7 +326,7 @@ return [
     'Add new Link' => 'Aggiungi nuovo link',
     'No Link Added' => 'Non hai ancora aggiunto alcun link.',
     'Download' => 'Scarica',
-    'Preview' => 'Anteprima:',
+    'Preview' => ' Anteprima:',
     'No compatible browser' => 'Il tuo browser non è compatibile',
     'Page Icons' => 'Icone pagina',
     'Save links' => 'Salva link',
@@ -391,7 +391,7 @@ return [
     'Profile updated successfully!' => 'Profilo aggiornato con successo!',
     'An error occurred while updating your profile.' => 'Si è verificato un errore durante l\'aggiornamento del profilo.',
 
-    'That handle has already been taken' => 'Questo handle è già stato preso.',
+    'That handle has already been taken' => 'Questo handle è già in uso.',
     'The selected file must be an image' => 'Il file selezionato deve essere un\'immagine.',
     'The image must be' => 'L\'immagine deve essere:',
     'The image size should not exceed 2MB' => 'La dimensione dell\'immagine non deve superare i 2MB.',
@@ -486,7 +486,7 @@ return [
     |
     */
 
-    'Information about PHP\'s configuration' => 'Informazioni sulla configurazione di PHP',
+    'Information about PHP’s configuration' => 'Informazioni sulla configurazione di PHP',
     'Outputs information about the current state of PHP' => 'Mostra informazioni sullo stato attuale di PHP',
 
 
@@ -586,14 +586,14 @@ return [
 
     'Backup' => 'Backup',
     'You can back up your entire instance:' => 'Puoi eseguire il backup dell\'intera istanza:',
-    'The backup system won\'t save more than two backups at a time' => 'Il sistema di backup non salverà più di due backup alla volta.',
+    'The backup system won’t save more than two backups at a time' => 'Il sistema di backup non salverà più di due backup alla volta.',
     'Backup Instance' => 'Backup istanza',
 
     'wtrue' => 'Tutto funziona correttamente!',
-    'wfalse' => 'Questo file non è scrivibile. Questo potrebbe impedire il corretto funzionamento.',
+    'wfalse' => 'Questo file non è scrivibile. Ciò potrebbe impedire il corretto funzionamento.',
     'utrue' => 'La tua sicurezza è a rischio. Questo file è accessibile a tutti. È necessaria un\'azione immediata!',
     'ufalse' => 'Tutto funziona correttamente!',
-    'unull' => 'Qualcosa è andato storto. Potrebbe essere normale se sei dietro un proxy o un container docker.',
+    'unull' => 'Qualcosa è andato storto. Potrebbe essere normale se sei dietro a un proxy o a un container Docker.',
     'Debugging information' => 'Informazioni di debug',
     'security.risk' => 'La tua sicurezza è a rischio. Alcuni file sono accessibili a tutti. È necessaria un\'azione immediata! Clicca questo messaggio per saperne di più.',
     'security.risk.1-3' => 'Qui puoi verificare facilmente se file critici di sistema possono essere accessibili esternamente. È importante che questi file non siano accessibili, altrimenti dati utente come le password potrebbero essere divulgati. Le voci contrassegnate con un',
@@ -656,7 +656,7 @@ return [
     'ALLOW_USER_HTML.title' => 'Consenti sintassi estesa nelle descrizioni utente',
     'ALLOW_USER_HTML.description' => 'Questo consente agli utenti di usare formattazioni speciali come intestazioni e link nella descrizione della loro pagina.<br>Generalmente considerato sicuro.',
     'APP_NAME.title' => 'Titolo applicazione',
-    'APP_NAME.description' => 'Imposta il titolo della tua app. Un cambiamento farà uscire tutti gli utenti attivi.',
+    'APP_NAME.description' => 'Imposta il titolo della tua app. Una modifica disconnetterà tutti gli utenti attivi.',
     'APP_KEY.title' => 'APP_KEY',
     'APP_KEY.description' => 'APP_KEY',
     'APP_URL.title' => 'APP_URL',
@@ -690,7 +690,7 @@ return [
     'JOIN_BETA.title' => 'Partecipa al programma beta',
     'JOIN_BETA.description' => 'Abilita l\'uso di versioni beta durante l\'aggiornamento. Leggi di più <a target=\'_blank\' href=\'https://linkstack.org/b\'>qui</a>.',
     'SKIP_UPDATE_BACKUP.title' => 'Salta backup aggiornamento',
-    'SKIP_UPDATE_BACKUP.description' => 'Salta i backup durante l\'aggiornamento. Questa opzione è consigliata disabilitata in ogni momento, <br>ma potrebbe causare errori in alcune configurazioni.',
+    'SKIP_UPDATE_BACKUP.description' => 'Salta i backup durante l\'aggiornamento. È consigliato mantenere questa opzione disabilitata in ogni momento, <br>ma potrebbe causare errori in alcune configurazioni.',
     'CUSTOM_META_TAGS.title' => 'Abilita meta tag personalizzati',
     'CUSTOM_META_TAGS.description' => 'Abilita l\'uso di meta tag personalizzati nell\'head di tutte le pagine. Definiti nella Configurazione avanzata.',
     'FORCE_HTTPS.title' => 'Forza link HTTPS',
@@ -734,10 +734,10 @@ return [
     'ADMIN_EMAIL.title' => 'Email admin',
     'ADMIN_EMAIL.description' => 'Usata per inviare email di notifica.',
     'HIDE_VERIFICATION_CHECKMARK.title' => 'Nascondi spunta di verifica',
-    'HIDE_VERIFICATION_CHECKMARK.description' => 'Nasconde il badge di verifica visualizzato sulle pagine admin e VIP.',
+    'HIDE_VERIFICATION_CHECKMARK.description' => 'Nasconde la spunta di verifica visualizzata sulle pagine admin e VIP.',
     'ENABLE_REPORT_ICON.title' => 'Abilita icona segnalazione',
     'ENABLE_REPORT_ICON.description' => 'Mostra un\'icona sulle pagine utente che permette di segnalare pagine.',
-    'LOCALE.title' => 'Impostazioni locali',
+    'LOCALE.title' => 'Lingua dell\'app',
     'LOCALE.description' => 'Cambia la lingua della tua applicazione',
 
 
@@ -818,7 +818,7 @@ return [
     'Installed beta version' => 'Versione beta installata',
     'none' => 'nessuna',
     'You need to update to the latest mainline release' => 'Devi aggiornare all\'ultima versione principale',
-    'You\'re running the latest mainline release' => 'Stai eseguendo l\'ultima versione principale',
+    'You’re running the latest mainline release' => 'Stai eseguendo l\'ultima versione principale',
 
     'update.manually' => 'Puoi aggiornare la tua installazione automaticamente oppure scaricare l\'aggiornamento e installarlo manualmente:',
     'update.windows' => 'Gli utenti Windows possono usare l\'aggiornatore alternativo. Questo aggiornatore non creerà un backup. Usalo a tuo rischio.',
@@ -866,7 +866,7 @@ return [
 
     # predefined
     'block.title.predefined' => 'Sito predefinito',
-    'block.description.predefined' => 'Seleziona da un elenco di siti web predefiniti e il tuo link verrà automaticamente stilizzato usando i colori del marchio e l\'icona di quel sito.',
+    'block.description.predefined' => 'Seleziona da un elenco di siti web predefiniti e il tuo link verrà automaticamente formattato usando i colori del marchio e l\'icona di quel sito.',
 
     # link
     'block.title.link' => 'Link personalizzato',
@@ -890,7 +890,7 @@ return [
 
     # spacer
     'block.title.spacer' => 'Spaziatore',
-    'block.description.spacer' => 'Aggiungi spazio vuoto alla tua lista di link. Puoi scegliere quanto alto.',
+    'block.description.spacer' => 'Aggiungi spazio vuoto alla tua lista di link. Puoi scegliere l\'altezza.',
 
     # text
     'block.title.text' => 'Testo',
@@ -941,10 +941,10 @@ return [
     'Work Email' => 'Email lavoro',
     'Enter your work email' => 'Inserisci la tua email di lavoro',
     'Phones' => 'Telefoni',
-    'Home Phone' => 'Telefono casa',
+    'Home Phone' => 'Telefono di casa',
     'Work Phone' => 'Telefono lavoro',
     'Cell Phone' => 'Cellulare',
-    'Home Address' => 'Indirizzo casa',
+    'Home Address' => 'Indirizzo di casa',
     'Label' => 'Etichetta',
     'Street' => 'Via',
     'City' => 'Città',
@@ -1037,7 +1037,7 @@ return [
     'support.msg2' => 'lasciare una stella al nostro progetto su GitHub',
     'support.msg3' => 'Il tuo supporto ci aiuterà a raggiungere un pubblico più ampio e a migliorare la qualità del nostro progetto.',
     'support.msg4' => 'Se puoi',
-    'support.msg5' => 'fare un contributo finanziario</a>, anche una piccola quantità ci aiuterebbe a coprire i costi di manutenzione e miglioramento di Linkstack.',
+    'support.msg5' => 'fare un contributo finanziario</a>, anche una piccola somma ci aiuterebbe a coprire i costi di manutenzione e miglioramento di Linkstack.',
     'support.msg6' => 'Grazie per il tuo supporto e per far parte della comunità di LinkStack!',
 
 
